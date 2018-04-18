@@ -6,7 +6,8 @@
 ### Step1. Data Cleaning and database engineering
 <li>Input: Two csv files with Hawaii weather and station information in the directory /Resources</li>
 <li>Script: Used Pandas and SQLAlchemy to clean data and create database to store the data</li>
-<li>[Jupyter notebook script is here](Surf_up/data_engineering_and_database_engineering.ipynb) </li>
+<li>[Jupyter notebook script is here]
+  (https://github.com/yizhiyin86/Surf_up/blob/master/data_engineering_and_database_engineering.ipynb) </li>
 <li>Output: Two cleaned csv files and hawaii.sqlite stored in the output directory </li>
 
 ### Step2. Data retrieving, analysis and visualization
