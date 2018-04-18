@@ -6,15 +6,15 @@
 ### Step1. Data Cleaning and database engineering
 <li>Input: Two csv files with Hawaii weather and station information in the directory /Resources</li>
 <li>Script: Used Pandas and SQLAlchemy to clean data and create database to store the data</li>
-<li>[Jupyter notebook script is here](data_engineering_and_database_engineering.ipynb) </li>
+<li>[Jupyter notebook script is here](Surf_up/data_engineering_and_database_engineering.ipynb) </li>
 <li>Output: Two cleaned csv files and hawaii.sqlite stored in the output directory </li>
 
 ### Step2. Data retrieving, analysis and visualization
 <li>Input: Retreieved data from the database created at Step1 </li>
 <li>Script:[Jupyter notebook script](Climate_Analysis_and_Exploration.ipynb)</li>
 <li>Output: Data Visualizations as below</li>
-..1. 12 months of precipitation from queries
-![Precipitation Plot](output/precipitation.png?raw=true "Precipitation of the last 12 months")
+<p>  12 months of precipitation from queries</p>
+![Precipitation Plot](/output/precipitation.png?raw=true "Precipitation of the last 12 months")
 
 ### Step3. Use Flask APP to render the information retrieved from Database 
 <li>Input: Retreieved data from the database created at Step1</li>
