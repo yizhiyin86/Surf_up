@@ -15,7 +15,7 @@
 <li>Output: Data Visualizations as below</li>
   <ul>
   <li> 12 months of precipitation from queries</li>
-    <li> <img src="/output/precipitation.png" alt="Precipitation of the last 12 months"></li>
+    <img src="/output/precipitation.png" alt="Precipitation of the last 12 months">
   </ul>
  </ul>
 ### Step3. Use Flask APP to render the information retrieved from Database 
