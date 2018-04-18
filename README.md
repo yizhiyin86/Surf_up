@@ -9,11 +9,15 @@
 <li><a href="https://github.com/yizhiyin86/Surf_up/blob/master/data_engineering_and_database_engineering.ipynb">Jupyter notebook script is here</a></li>
 <li>Output: Two cleaned csv files and hawaii.sqlite stored in the output directory </li>
 ### Step2. Data retrieving, analysis and visualization
+<ul>
 <li>Input: Retreieved data from the database created at Step1 </li>
 <li>Script:[Jupyter notebook script](Climate_Analysis_and_Exploration.ipynb)</li>
 <li>Output: Data Visualizations as below</li>
-<p>  12 months of precipitation from queries</p>
-<img src="/output/precipitation.png" alt="Precipitation of the last 12 months">
+  <ul>
+  <li> 12 months of precipitation from queries</li>
+    <li> <img src="/output/precipitation.png" alt="Precipitation of the last 12 months"></li>
+  </ul>
+ </ul>
 ### Step3. Use Flask APP to render the information retrieved from Database 
 <li>Input: Retreieved data from the database created at Step1</li>
 <li>Script: [A markdown of the script is here](Flask_API.md) </li>
