@@ -1,14 +1,26 @@
-# Surf_up
-<ul>
-<li>1. data_engineering_and_data_base_engineering is in one jupyter notebook</li>
-<li>2. Climate_Analysis_and_Exporation is in another jupyter notebook</li>  
-<li>3. Flask_API.md has the script as well as screenshots linked, the script is Flask_API.py</li>
-<li>4. output</li> 
-    <ul>
-        <li>hawaii.sqlite</li>
-        <li>cleaned_csv</li>
-        <li>pictures of all the plots</li>
-        <li>screenshots of Flask_API</li>   
-    </ul>
-<li>5. My dog's picture is in here too (not relevant at all)</li>
-</ul>
+## Surf Up
+<p>Used SqlAlchemy to create a database to store weather inforamtion in Honolulu, Hawaii;</p>
+<p>Queried the data from database, analyzed the data by PANDAS and offered visualization using matplotlib</p>
+<p>Used FLASK APP to render the data to a webpage</p>
+
+### Step1. Data Cleaning and database engineering
+<li>Input: Two csv files with Hawaii weather and station information in the directory /Resources</li>
+<li>Script: Used Pandas and SQLAlchemy to clean data and create database to store the data</li>
+<li>[Jupyter notebook script is here](data_engineering_and_database_engineering.ipynb) </li>
+<li>Output: Two cleaned csv files and hawaii.sqlite stored in the output directory </li>
+
+### Step2. Data retrieving, analysis and visualization
+<li>Input: Retreieved data from the database created at Step1 </li>
+<li>Script:[Jupyter notebook script](Climate_Analysis_and_Exploration.ipynb)</li>
+<li>Output: Data Visualizations as below</li>
+..1. 12 months of precipitation from queries
+![Precipitation Plot](output/precipitation.png?raw=true "Precipitation of the last 12 months")
+
+### Step3. Use Flask APP to render the information retrieved from Database 
+<li>Input: Retreieved data from the database created at Step1</li>
+<li>Script: [A markdown of the script is here](Flask_API.md) </li>
+<li>Output: Rendered info when run Flask, examples of some screenshots are here</li>
+![Flask Welcome](output/Flask_API_welcome.png?raw=true "Welcome page")
+![Start date and end date weather information](output/Flask_API_Start_End.png?raw=true "Welcome page")
+
+
